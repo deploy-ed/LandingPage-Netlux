@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './Footer'
 const Contato = () => {
   return (
     <section className='h-[1500px] tw-background-footer '>
@@ -37,6 +37,7 @@ const Contato = () => {
 
                 </div>
             </div>
+            <Footer/>
     </section>
   )
 }

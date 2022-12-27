@@ -1,19 +1,18 @@
-import './App.css'
-import NavBar from './components/NavBar'
-import CTA from './components/CTA'
-import Stats from './components/Stats'
-import Buttonqsb from './components/Buttonqsb.jsx'
+import React from 'react'
+import Home from './components/Home'
+import Obras from './components/Obras'
+import Sobrenos from './components/Sobrenos'
+import Contato from './components/Contato'
 
-export default function App() {
+function App() {
   return (
-   
-
-    <div className=''>
-        <NavBar/>
-        <CTA/>
-        <Stats/>
-        <Buttonqsb/>
+    <div>
+      <Home/>
+      <Obras/>
+      <Sobrenos/>
+      <Contato/>
     </div>
-    
   )
 }
+
+export default App
